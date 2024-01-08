@@ -1,0 +1,25 @@
+/* Add this to your CSS or Tailwind CSS stylesheet */
+.ribbon-wrapper {
+  position: absolute;
+  top: -6px;
+  right: -22px;
+  width: 50px;
+  height: 58px;
+  overflow: hidden;
+  transform: rotate(45deg);
+}
+.ribbon-wrapper-right {
+  position: absolute;
+  top: 0px;
+  right: 200px;
+  width: 50px;
+  height: 64px;
+  overflow: hidden;
+  transform: rotate(45deg);
+}
+@media only screen and (max-width: 600px) {
+  /* Adjust the right value for small devices */
+  .ribbon-wrapper-right {
+    right: 66px; /* You can set the desired value for small screens */
+  }
+}
